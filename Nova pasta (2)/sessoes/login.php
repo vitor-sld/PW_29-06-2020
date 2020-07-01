@@ -3,8 +3,8 @@
     $name = $_POST['nome'];
     $password = $_POST['senha'];
     echo "$name e $password <br>";
-    $user = "Samuel";
-    $senha = 20439;
+    $user = "Vitor Augusto";
+    $senha = 20490;
     if($name == $user && $password == $senha){
         $_SESSION['user_login']=1;
         
